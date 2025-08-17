@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: orange;
+        }
+        p {
+            color: green;
+        }
+        
+        a::after{
+            content: ' (link)';   
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando liks</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">repositorio git</a></li>
+        <li><a href="https://www.youtube.com/@zinnOMEGALUL">Youtube channel</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css">site do curso em video</a></li>
+    </ul>
+    <p>Voltar para a <a href="pseudoclasse.html" target="_self">primeira pagina</a></p>
+    <p>Ir para a <a href="hover.html" target="_self">segunda pagina</a></p>
+    
+</body>
+</html>
